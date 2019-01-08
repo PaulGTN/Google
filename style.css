@@ -12,11 +12,13 @@
 	align-content: space-between;	
 }
 #main {
+	display: flex;
+	flex-direction: column;
 	border-width: 3px; border-style: solid;
-	align-content: center;
 	margin-top: auto;
 	margin-bottom: auto;
 	height: 400px;
+	
 }
 #google {
 	display: flex;
