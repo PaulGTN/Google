@@ -2,7 +2,7 @@
 
 	width: 15%;
 	margin-left: 85%;
-	border-width: 3px; border-style: solid;
+	
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	display: flex;
@@ -15,7 +15,7 @@
 #main {
 	display: flex;
 	flex-direction: column;
-	border-width: 3px; border-style: solid;
+	
 	margin-top: auto;
 	margin-bottom: auto;
 	height: 600px;
@@ -32,22 +32,24 @@
 #search {
 	display: flex;
 	margin-bottom: 1%;
-	border-width: 3px; border-style: solid;
+	
 	border-color: red;
 	width: 100%;
-	align-items: center;	
+	align-items: center;
+	justify-content: center;	
 }
 
 #lucky {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	width: 16%;
 
 }
 
-#recherche {
+.recherche {
 	display: flex;
 	width: 350%;
-	border-width: 3px; border-style: solid;
+	
 }
 
 #footer {
@@ -57,7 +59,7 @@
 	background-color: #f2f2f2;
 	font-family: Arial, Helvetica, sans-serif;
 	height: 25px;
-	width: 100%;
+	width: 98%;
 	padding: 27px;
 	justify-content: start;
 	align-items: center;
@@ -69,23 +71,31 @@
 	background-color: #f2f2f2;
 	font-family: Arial, Helvetica, sans-serif;
 	height: 25px;
-	width: 100%;
+	width: 98%;
 	padding: 27px;
 	justify-content: space-between;
 	align-items: center;
+	align-content: center;
 }
 #com {
-	border-width: 3px; border-style: solid;
+	
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
+	
 }
 #info {
-	border-width: 3px; border-style: solid;
+	
 	display: flex;
 	justify-content: flex-end;
 }
-#bas {
+.bas {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.mail {
+	color: blue;
+}
+.mo {
 	margin-left: 10px;
 	margin-right: 10px;
 }
