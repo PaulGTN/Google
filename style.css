@@ -11,6 +11,7 @@
 	align-items: center;
 	align-content: space-between;	
 }
+
 #main {
 	display: flex;
 	flex-direction: column;
@@ -18,18 +19,33 @@
 	margin-top: auto;
 	margin-bottom: auto;
 	height: 400px;
-	
+	align-content: space-around; 
+	align-items: center;
+	justify-content: center; 	
 }
+
 #google {
 	display: flex;
-	justify-content: center;
-	align-self: center;
+	margin-bottom: 1%;
 }
+
 #search {
 	display: flex;
-	justify-content: center;
+	margin-bottom: 1%;
+	order-width: 3px; border-style: solid;
+	border-color: red;
+	width: 100%;
+	align-items: center;	
 }
+
 #lucky {
+
 	display: flex;
 	justify-content: center;
+}
+
+#recherche {
+	display: flex;
+	width: 350%
+	order-width: 3px; border-style: solid;
 }
