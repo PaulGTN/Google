@@ -18,7 +18,7 @@
 	border-width: 3px; border-style: solid;
 	margin-top: auto;
 	margin-bottom: auto;
-	height: 400px;
+	height: 600px;
 	align-content: space-around; 
 	align-items: center;
 	justify-content: center; 	
@@ -32,20 +32,60 @@
 #search {
 	display: flex;
 	margin-bottom: 1%;
-	order-width: 3px; border-style: solid;
+	border-width: 3px; border-style: solid;
 	border-color: red;
 	width: 100%;
 	align-items: center;	
 }
 
 #lucky {
-
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+
 }
 
 #recherche {
 	display: flex;
-	width: 350%
-	order-width: 3px; border-style: solid;
+	width: 350%;
+	border-width: 3px; border-style: solid;
+}
+
+#footer {
+	display: flex;
+	border: 1px; border-style: solid; 
+	border-color: #e4e4e4;
+	background-color: #f2f2f2;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 25px;
+	width: 100%;
+	padding: 27px;
+	justify-content: start;
+	align-items: center;
+}
+#footer2 {
+	display: flex;
+	border: 1px; border-style: solid; 
+	border-color: #e4e4e4;
+	background-color: #f2f2f2;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 25px;
+	width: 100%;
+	padding: 27px;
+	justify-content: space-between;
+	align-items: center;
+}
+#com {
+	border-width: 3px; border-style: solid;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+#info {
+	border-width: 3px; border-style: solid;
+	display: flex;
+	justify-content: flex-end;
+}
+#bas {
+	margin-left: 10px;
+	margin-right: 10px;
 }
